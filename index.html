@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aanmeldpagina</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="aanmeld.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/99%20icoondef-01.png" alt="Logo site">
+        <img class="profiel" src="images/profielicoon.png" alt="Icoon profiel gebruiker">
+    </header>
+    <main>
+        <article>
+           <h1>#99-account aanmaken</h1>
+           <p>Vul de volgende gegevens in om uw #99-account te maken.</p>
+        </article>
+        <form>
+            <fieldset>
+                <legend>Uw gegevens</legend>
+                <label>Voornaam:</label> <input type="text" name="voornaam" minlength="1" maxlength="15" required>
+                <label>Tussenvoegsel:</label> <input type="text" name="tussenvoegsel" minlength="0" maxlength="15" required>
+                <label>Achternaam:</label> <input type="text" name="achternaam" minlength="1" maxlength="15" required>
+                <label>E-mailadres:</label> <input type="email" name="e-mailadres" minlength="3" maxlength="20" required>
+                <label>Telefoonnummer:</label> <input type="tel" name="telefoonnummer" minlength="8" required>
+                <label>Straat:</label> <input type="text" name="straat" required>
+                <label>Huisnummer:</label> <input type="number" name="huisnummer" required>
+                <label>Postcode:</label> <input type="text" name="postcode" minlength="4" maxlength="15" required>
+                <label>Wachtwoord:</label> <input type="password" name="wachtwoord" minlength="6" required>
+                <a href="overzichtdef.html">Aanmelden ></a>
+                <a class="annuleren" href="overzichtdef.html">Annuleren</a>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
